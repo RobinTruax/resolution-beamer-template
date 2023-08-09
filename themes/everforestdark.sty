@@ -1,0 +1,60 @@
+% ----------------------------- resolution v0.1.0 ------------------------------
+% 
+% resolution is a Neovim config for writing TeX and doing computational math.
+% 
+% This is the theme everforestdark for resolution's built-in style files.
+% 
+% Copyright (C) 2023 Roshan Truax
+% 
+% This program is free software: you can redistribute it and/or modify it under 
+% the terms of the GNU General Public License as published by the Free Software 
+% Foundation, either version 3 of the License, or (at your option) any later 
+% version.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT ANY
+% WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+% PARTICULAR PURPOSE. See the GNU General Public License for more details.
+% 
+% ------------------------------------------------------------------------------
+
+\RequirePackage{xcolor}
+
+% Colors
+\definecolor{TBackground}{HTML}{2d353b}
+\definecolor{TForeground}{HTML}{d4d1c6}
+\definecolor{TRed}{HTML}{e67e80}
+\definecolor{TOrange}{HTML}{e69875}
+\definecolor{TYellow}{HTML}{dbbc7f}
+\definecolor{TGreen}{HTML}{a7c080}
+\definecolor{TAqua}{HTML}{83c092}
+\definecolor{TBlue}{HTML}{7fbbb3}
+\definecolor{TPurple}{HTML}{d699b6}
+\definecolor{TGrey}{HTML}{4f585e}
+
+% Base
+\colorlet{rsltnPage}{TBackground}
+\colorlet{rsltnText}{TForeground}
+
+% Environments
+\colorlet{rsltnDefinition}{TGreen}
+\colorlet{rsltnTheorem}{TRed}
+\colorlet{rsltnProposition}{TPurple}
+\colorlet{rsltnLemma}{TPurple}
+\colorlet{rsltnCorollary}{TBlue}
+\colorlet{rsltnExample}{TGreen}
+\colorlet{rsltnConjecture}{TAqua}
+\colorlet{rsltnProblem}{TRed}
+\colorlet{rsltnSolution}{TRed}
+
+% Code
+\colorlet{rsltnComment}{TGrey}
+\colorlet{rsltnKeyword}{TPurple}
+\colorlet{rsltnString}{TGreen}
+\colorlet{rsltnNumbers}{TGrey}
+\colorlet{rsltnLinebreak}{TRed}
+
+% Reset page and text color
+\color{rsltnText}
+\pagecolor{rsltnPage}
+
+% ------------------------------------------------------------------------------

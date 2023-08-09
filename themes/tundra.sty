@@ -1,0 +1,59 @@
+% ----------------------------- resolution v0.1.0 ------------------------------
+% 
+% resolution is a Neovim config for writing TeX and doing computational math.
+% 
+% This is the theme tundra for resolution's built-in style files.
+% 
+% Copyright (C) 2023 Roshan Truax
+% 
+% This program is free software: you can redistribute it and/or modify it under 
+% the terms of the GNU General Public License as published by the Free Software 
+% Foundation, either version 3 of the License, or (at your option) any later 
+% version.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT ANY
+% WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+% PARTICULAR PURPOSE. See the GNU General Public License for more details.
+% 
+% ------------------------------------------------------------------------------
+
+\RequirePackage{xcolor}
+
+% Theme Colors
+\definecolor{TBackground}{HTML}{111827}
+\definecolor{TForeground}{HTML}{f2f4f4}
+\definecolor{TRed}{HTML}{fca5a4}
+\definecolor{TOrange}{HTML}{f3bb99}
+\definecolor{TGreen}{HTML}{b2e4ad}
+\definecolor{TBlue}{HTML}{bbe6fd}
+\definecolor{TPink}{HTML}{f1c3c9}
+\definecolor{TPurple}{HTML}{ddd7fe}
+\definecolor{TGrey}{HTML}{9ca2ae}
+
+% Base
+\colorlet{rsltnPage}{TBackground}
+\colorlet{rsltnText}{TForeground}
+
+% Environments
+\colorlet{rsltnDefinition}{TGreen}
+\colorlet{rsltnTheorem}{TRed}
+\colorlet{rsltnProposition}{TPurple}
+\colorlet{rsltnLemma}{TPurple}
+\colorlet{rsltnCorollary}{TBlue}
+\colorlet{rsltnExample}{TOrange}
+\colorlet{rsltnConjecture}{TPink}
+\colorlet{rsltnProblem}{TRed}
+\colorlet{rsltnSolution}{TRed}
+
+% Code
+\colorlet{rsltnComment}{TGrey}
+\colorlet{rsltnKeyword}{TPurple}
+\colorlet{rsltnString}{TGreen}
+\colorlet{rsltnNumbers}{TGrey}
+\colorlet{rsltnLinebreak}{TRed}
+
+% Reset page and text color
+\color{rsltnText}
+\pagecolor{rsltnPage}
+
+% ------------------------------------------------------------------------------
