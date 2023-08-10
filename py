@@ -1,1 +1,0 @@
-/home/roshan/.config/nvim/lua/computation/py
