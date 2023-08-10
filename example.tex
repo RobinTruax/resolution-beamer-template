@@ -1,11 +1,13 @@
+% Set beamer document class and input ecoding
 \documentclass[notheorems, compress]{beamer}
 \usepackage[utf8]{inputenc}
-\usepackage{themes/everforestlight}
-\usepackage{beamerenvironments}
+% Set the color theme before anything else
+\usepackage{themes/tundra}
+% Set beamer theme to resolution
 \usetheme{rsltn}
 
-\title{Resolution's Beamer Template}
-\subtitle{A prettier way to create presentations in \LaTeX. \subtitleline}
+\title{Resolution Beamer Template}
+\subtitle{Presentations in LaTeX \subtitleline}
 \author{Robin Truax}
 
 \begin{document}
@@ -14,7 +16,7 @@
 \end{frame}
 
 \begin{frame}[plain]
-    Resolution's Beamer Template is a themable Beamer template for elegant but informative presentations.
+    For a simple slide, use `plain`.
 \end{frame}
 
 \begin{frame}{Outline}
@@ -27,6 +29,10 @@
 \begin{frame}{$ $}
      \begin{definition}[Test]\label{def:Test}
          Test.
+         \begin{enumerate}
+             \item Test.
+             \item Test.
+         \end{enumerate}
      \end{definition}
 \end{frame}
 
@@ -34,6 +40,10 @@
 \begin{frame}{$ $}
      \begin{conjecture}[Test]\label{conj:Test}
          Test
+         \begin{enumerate}
+             \item Test.
+             \item Test.
+         \end{enumerate}
      \end{conjecture}
 \end{frame}
 
